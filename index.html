@@ -170,30 +170,30 @@ ANMS, homography estimation, RANSAC.</a>
       <td style="padding:20px;width:75%;vertical-align:middle">
           <span class="papertitle">AutoCalib</span>
        
-       <p> Implemented algorithm to automate estimation of camera intrinsics using mathematical model
+       <p> Implemented algorithm to automate estimation of camera intrinsics using a mathematical model
 proposed by Zhengyou Zhang.</a>
         </p>
       </td>
     </tr>
 
-    <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+    <tr onmouseout="smc_stop()" onmouseover="smc_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
-          <source src="images/smerf.mp4" type="video/mp4">
+          <div class="two" id='smc_image'><video  width=100% muted autoplay loop>
+          <source src="images/traj_ortho_view.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/smerf.jpg' width=100%>
+          <img src='images/traj_ortho.png' width=100%>
         </div>
         <script type="text/javascript">
-          function smerf_start() {
-            document.getElementById('smerf_image').style.opacity = "1";
+          function smc_start() {
+            document.getElementById('smc_image').style.opacity = "1";
           }
 
-          function smerf_stop() {
-            document.getElementById('smerf_image').style.opacity = "0";
+          function smc_stop() {
+            document.getElementById('smc_image').style.opacity = "0";
           }
-          smerf_stop()
+          smc_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
