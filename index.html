@@ -84,7 +84,7 @@
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
                     
-                <!-- Project 6: Robust Quadrotor Trajectory Tracking Using Sliding Mode Control -->
+                <!-- Project 1: Robust Quadrotor Trajectory Tracking Using Sliding Mode Control -->
 <!--                 <tr onmouseout="smc_stop()" onmouseover="smc_start()"> -->
                     <tr>
                     <td style="padding:20px;width:40%;vertical-align:top">
@@ -120,9 +120,47 @@
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+
+                 <!-- Project 2: SCARA Robot -->
+<!--                 <tr onmouseout="smc_stop()" onmouseover="smc_start()"> -->
+                    <tr>
+                    <td style="padding:20px;width:40%;vertical-align:top">
+                        <div class="one">
+                            <div class="two" id='smc_image'><video width=300 muted autoplay loop> 
+                            <source src="images/scara.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video></div>
+<!--                               <img src='images/traj_ortho.png' width=300 height=300> -->
+<!--                         </div> -->
+                        <script type="text/javascript">
+                            function smc_start() {
+                                document.getElementById('smc_image').style.opacity = "1";
+                              }
+                    
+                              function smc_stop() {
+                                document.getElementById('smc_image').style.opacity = "0";
+                              }
+                            // smc_stop();
+                        </script>
+                    </td>
+                    <td style="padding:20px;width:85%;vertical-align:top">
+                        <span class="papertitle">SCARA Robot Simulator</span>
+                        <br>
+                        <a href="https://github.com/miheer-diwan/quadrotor_sliding_mode_control.git">GitHub</a>
+                        <p>Simulation and control of a SCARA robot in ROS2 and Gazebo using PID controller.</p>
+                    </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                    
                     
 
-                <!-- Project 4: Panorama Stitching -->
+                <!-- Project 2: Panorama Stitching -->
                 <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
                     <td style="padding:20px;width:40%;vertical-align:top">
                         <div class="one">
@@ -144,25 +182,6 @@
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
 
-                <!-- Project 1: Visual Inertial Odometry (VIO) -->
-                <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
-                    <td style="padding:20px;width:40%;vertical-align:top">
-                        <div class="one">
-                            <img src='images/pangolin_traj.png' width=300 height=300>
-                        </div>
-                    </td>
-                    <td style="padding:20px;width:85%;vertical-align:top">
-                        <strong><span class="papertitle">Visual Inertial Odometry (VIO)</span></strong>
-                        <p>Implemented advanced Multi-State Constraint Kalman Filter (MSCKF) following a paper for robust sensor fusion.</p>
-                    </td>
-                </tr>
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
                     
                 <!-- Project 2: Neural Radiance Fields (NeRF) -->
                 <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
@@ -222,7 +241,28 @@
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing --> 
+
+                 <!-- Project 1: Visual Inertial Odometry (VIO) -->
+                <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+                    <td style="padding:20px;width:40%;vertical-align:top">
+                        <div class="one">
+                            <img src='images/pangolin_traj.png' width=300 height=300>
+                        </div>
+                    </td>
+                    <td style="padding:20px;width:85%;vertical-align:top">
+                        <strong><span class="papertitle">Visual Inertial Odometry (VIO)</span></strong>
+                        <p>Implemented advanced Multi-State Constraint Kalman Filter (MSCKF) following a paper for robust sensor fusion.</p>
+                    </td>
+                </tr>
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+               
                 
                 </tbody>
             </table>
