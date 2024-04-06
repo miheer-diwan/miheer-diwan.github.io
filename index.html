@@ -1,10 +1,177 @@
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->   
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Miheer Diwan</title>
+    <meta name="author" content="Jon Barron">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/cyclone_white.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+    <tr style="padding:0px">
+        <td style="padding:0px">
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                <tr style="padding:0px">
+                    <td style="padding:2.5%;width:63%;vertical-align:middle">
+                        <p class="name" style="text-align: center;">Miheer Diwan</p>
+                        <p style="text-align: center;">Robotics Engineer</p>
+                        <p>I'm a Robotics Master's student at <a href="https://wpi.edu/">Worcester Polytechnic Institute (WPI)</a> specializing in Computer Vision, Machine Learning and Autonomous Robot Navigation.</p>
+                        <p style="text-align:center">
+                            <a href="mailto:msdiwan@wpi.edu">Email</a> &nbsp;/&nbsp;
+                            <a href="data/Miheer_Diwan_Resume.pdf">CV</a> &nbsp;/&nbsp;
+                            <!--<a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp;-->
+                            <!--<a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp;-->
+                            <!--<a href="https://www.threads.net/@jonbarron">Threads</a> &nbsp;/&nbsp;-->
+                            <a href="https://www.linkedin.com/in/miheer-diwan/">LinkedIn</a> &nbsp;/&nbsp;
+                            <!--<a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp;-->
+                            <a href="https://github.com/miheer-diwan">Github</a>
+                        </p>
+                    </td>
+                    <td style="padding:2.5%;width:40%;max-width:40%">
+                        <a href="images\Miheer.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/Miheer.jpg" class="hoverZoomLink"></a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <div class="row">
+                <table class="custom-table" width="100%" align="center" style="margin-top: 10px;">
+                    <tr>
+                        <td align="center" width="15%" style="vertical-align: middle;">
+                            <img src="images/pear.png" width="50%">
+                        </td>
+                        <td align="center" width="15%" style="vertical-align: middle;">
+                            <img src="images/chip.jpg" width="50%">
+                        </td>
+                        <td align="center" width="15%" style="vertical-align: middle;">
+                            <img src="images/WPILogo.png" width="50%">
+                        </td>
+                        <td align="center" width="15%" style="vertical-align: middle;">
+                            <img src="images/nmims_logo.png" width="50%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="vertical-align: middle;">
+                            <b>Graduate Researcher, <a href="https://pear.wpi.edu/">Perception and Autonomous Robotics (PeAR) Group</a></b><br>Aug 2023 - Dec 2023
+                        </td>
+                        <td align="center" style="vertical-align: middle;">
+                            <b>Graduate Researcher, <a href="https://computing.wpi.edu/index.html">Embedded Computing Lab</a></b><br>May 2023 - July 2023
+                        </td>
+                        <td align="center" style="vertical-align: middle;">
+                            <b>Master's in Robotics Engineering</b><br>Worcester Polytechnic Institute<br>2022-2024
+                        </td>
+                        <td align="center" style="vertical-align: middle;">
+                            <b>B.Tech Mechatronics Engineering (Minor: Robotics & IoT)</b><br>NMIMS University, Mumbai<br>2018-2022
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                <tr>
+                    <td style="padding:20px;width:100%;vertical-align:middle">
+                        <h2>Projects</h2>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
                     
+                <!-- Project 6: Robust Quadrotor Trajectory Tracking Using Sliding Mode Control -->
+                <tr onmouseout="smc_stop()" onmouseover="smc_start()">
+                    <td style="padding:20px;width:50%;vertical-align:top">
+                        <div class="one">
+                            <div class="two" id='smc_image'><video width=300 muted autoplay loop>
+                            <source src="images/traj_ortho_view.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video></div>
+                              <img src='images/traj_ortho.png' width=300 height=300>
+                        </div>
+                        <script type="text/javascript">
+                            function smc_start() {
+                                document.getElementById('smc_image').style.opacity = "1";
+                              }
+                    
+                              function smc_stop() {
+                                document.getElementById('smc_image').style.opacity = "0";
+                              }
+                            smc_stop();
+                        </script>
+                    </td>
+                    <td style="padding:20px;width:50%;vertical-align:top">
+                        <span class="papertitle">Robust Quadrotor Trajectory Tracking Using Sliding Mode Control</span>
+                        <a href="https://github.com/miheer-diwan/quadrotor_sliding_mode_control.git">GitHub</a>
+                        <p>Design of a sliding mode controller for altitude and attitude control of the Crazyflie 2.0 to enable the quadrotor to track desired trajectories and visit a set of desired waypoints.</p>
+                    </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+
+
+                <!-- Project 4: Panorama Stitching -->
+                <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+                    <td style="padding:20px;width:25%;vertical-align:top">
+                        <div class="one">
+                            <img src='images/mih.png' width=300 height=300>
+                        </div>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:top">
+                        <span class="papertitle">Panorama Stitching</span>
+                        <a href="https://github.com/miheer-diwan/Panorama-Stitching.git">GitHub</a>
+                        <p>Stitched images having overlapping features to create a panorama using feature matching, ANMS, homography estimation, RANSAC.</p>
+                    </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+
+
+                <!-- Project 1: Visual Inertial Odometry (VIO) -->
+                <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+                    <td style="padding:20px;width:25%;vertical-align:top">
+                        <div class="one">
+                            <img src='images/pangolin_traj.png' width=300 height=300>
+                        </div>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:top">
+                        <strong><span class="papertitle">Visual Inertial Odometry (VIO)</span></strong>
+                        <p>Implemented advanced Multi-State Constraint Kalman Filter (MSCKF) following a paper for robust sensor fusion.</p>
+                    </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+
+                <!-- Project 2: Neural Radiance Fields (NeRF) -->
+                <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+                    <td style="padding:20px;width:25%;vertical-align:top">
+                        <div class="one">
+                            <img src='images/lego_gif.gif' width=300 height=300>
+                        </div>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:top">
+                        <span class="papertitle">Neural Radiance Fields (NeRF)</span>
+                        <p>Implemented NeRF pipeline following <a href='https://arxiv.org/abs/2003.08934'>this NeRF paper.</a></p>
+                    </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+
+                <!-- Project 3: Structure from Motion (SfM) -->
+                <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+                    <td style="padding:20px;width:25%;vertical-align:top">
+                        <div class="one">
+                            <img src='images/All.png' width=300 height=300>
+                        </div>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:top">
+                        <span class="papertitle">Structure from Motion (SfM)</span>
+                        <p>Reconstructed a 3D scene and simultaneously extracted camera pose from given camera correspondences using Non/Linear triangulation, Non/Linear PnP, and Bundle Adjustment for optimization.</p>
+                    </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
+
                 <!-- Project 5: Camera Calibration -->
                 <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
                     <td style="padding:20px;width:25%;vertical-align:top">
@@ -18,11 +185,6 @@
                     </td>
                 </tr>
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->   
                 </tbody>
             </table>
         </td>
