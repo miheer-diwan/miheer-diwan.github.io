@@ -88,12 +88,22 @@
                     <td style="padding:20px;width:50%;vertical-align:top">
                         <div class="one">
                             <div class="two" id='smc_image'>
-                                <video width=200 height=200 muted autoplay loop>
+                                <video width=100% muted autoplay loop>
                                     <source src="images/traj_ortho_view.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
+                              <img src='images/smerf.jpg' width=100%>
                         </div>
+                        <script type="text/javascript">
+                            function smc_start() {
+                                document.querySelector('#smc_image video').play();
+                            }
+                            function smc_stop() {
+                                document.querySelector('#smc_image video').pause();
+                            }
+                            smc_stop();
+                        </script>
                     </td>
                     <td style="padding:20px;width:50%;vertical-align:top">
                         <span class="papertitle">Robust Quadrotor Trajectory Tracking Using Sliding Mode Control</span>
@@ -181,26 +191,5 @@
     </tr>
     </tbody>
 </table>
-
-<script type="text/javascript">
-    function smc_start() {
-        document.querySelector('#smc_image video').play();
-    }
-
-    function smc_stop() {
-        document.querySelector('#smc_image video').pause();
-    }
-
-    function smerf_start() {
-        // Add your hover start logic here
-    }
-
-    function smerf_stop() {
-        // Add your hover stop logic here
-    }
-
-    smc_stop();
-</script>
-
 </body>
 </html>
