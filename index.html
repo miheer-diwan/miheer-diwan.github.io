@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="images/cyclone_white.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
-
+    
 <body>
 <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
@@ -88,14 +88,16 @@
                 <tbody>
                     
                 <!-- Project 1: Robust Quadrotor Trajectory Tracking Using Sliding Mode Control -->
-                <tr onmouseout="smc_stop()" onmouseover="smc_start()">
+<!--                 <tr onmouseout="smc_stop()" onmouseover="smc_start()"> -->
+                    <tr>
                     <td style="padding:20px;width:40%;vertical-align:top">
                         <div class="one">
                             <div class="two" id='smc_image'><video width=300 muted autoplay loop> 
                             <source src="images/traj_ortho_view.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                             </video></div>
-                        </div>
+<!--                               <img src='images/traj_ortho.png' width=300 height=300> -->
+<!--                         </div> -->
                         <script type="text/javascript">
                             function smc_start() {
                                 document.getElementById('smc_image').style.opacity = "1";
@@ -104,7 +106,7 @@
                               function smc_stop() {
                                 document.getElementById('smc_image').style.opacity = "0";
                               }
-                             smc_stop(); // Ensure the video is initially hidden
+                            // smc_stop();
                         </script>
                     </td>
                     <td style="padding:20px;width:85%;vertical-align:top">
@@ -114,7 +116,6 @@
                         <p>Design of a sliding mode controller for altitude and attitude control of the Crazyflie 2.0 to enable the quadrotor to track desired trajectories and visit a set of desired waypoints.</p>
                     </td>
                 </tr>
-                    
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
@@ -123,24 +124,29 @@
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
 
-                <!-- Project 2: SCARA Robot -->
-                <tr onmouseout="scara_stop()" onmouseover="scara_start()">
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                    
+                 <!-- Project 2: SCARA Robot -->
+<!--                 <tr onmouseout="smc_stop()" onmouseover="smc_start()"> -->
+                    <tr>
                     <td style="padding:20px;width:40%;vertical-align:top">
                         <div class="one">
-                            <div class="two" id='scara_image'><video width=300 muted autoplay loop> 
+                            <div class="two" id='smc_image'><video width=300 muted autoplay loop> 
                             <source src="images/scara.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                             </video></div>
+<!--                               <img src='images/traj_ortho.png' width=300 height=300> -->
                         </div>
                         <script type="text/javascript">
-                            function scara_start() {
-                                document.getElementById('scara_image').style.opacity = "1";
+                            function smc_start() {
+                                document.getElementById('smc_image').style.opacity = "1";
                               }
                     
-                              function scara_stop() {
-                                document.getElementById('scara_image').style.opacity = "0";
+                              function smc_stop() {
+                                document.getElementById('smc_image').style.opacity = "0";
                               }
-                             scara_stop(); // Ensure the video is initially hidden
+                            // smc_stop();
                         </script>
                     </td>
                     <td style="padding:20px;width:85%;vertical-align:top">
@@ -148,10 +154,9 @@
                         <br>
                         <a href="https://github.com/miheer-diwan/quadrotor_sliding_mode_control.git">GitHub</a>
                         <p> Position and Velocity control of SCARA robot using a PID Controller in a simulated environment in ROS2 and Gazebo.</p>
+                        
                     </td>
-                </tr>
-                </tbody>
-            </table>
+                </tr>  
 
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
                 <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
@@ -272,16 +277,6 @@
                 </tbody>
             </table>
             
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
-                <tr><td>&nbsp;</td></tr> <!-- Empty row for spacing -->
 
-    </tr>
-    </tbody>
-</table>
 </body>
 </html>
