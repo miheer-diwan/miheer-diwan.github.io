@@ -88,7 +88,7 @@
                 <tr onmouseout="smc_stop()" onmouseover="smc_start()">
                     <td style="padding:20px;width:50%;vertical-align:top">
                         <div class="one">
-                            <div class="two" id='smc_image'><video width=100% muted autoplay loop>
+                            <div class="two" id='smc_image'><video width=200% muted autoplay loop>
                             <source src="images/traj_ortho_view.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                             </video></div>
@@ -96,11 +96,12 @@
                         </div>
                         <script type="text/javascript">
                             function smc_start() {
-                                document.querySelector('#smc_image video').play();
-                            }
-                            function smc_stop() {
-                                document.querySelector('#smc_image video').pause();
-                            }
+                                document.getElementById('smc_image').style.opacity = "1";
+                              }
+                    
+                              function smc_stop() {
+                                document.getElementById('smc_image').style.opacity = "0";
+                              }
                             smc_stop();
                         </script>
                     </td>
