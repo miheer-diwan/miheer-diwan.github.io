@@ -254,7 +254,7 @@
 </tbody>
 </table>
        
-            <!-- PROJECT SECTION -->
+<!-- COMPUTER VISION PROJECT SECTION -->
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
                 <tr>
@@ -268,53 +268,7 @@
 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody> 
-            <!-- Project 1: Sim2Real Quadrotor Perception Stack -->                                
-                    <tr>
-                    <td style="padding:20px;width:30%;vertical-align:top">
-                        <div class="one">
-                            <div class="two" id='smc_image'><video height=100% muted autoplay loop> 
-                            <source src="images/perception.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                            </video></div>
-<!--                               <img src='images/traj_ortho.png' width=200 height=200> -->
-<!--                         </div> -->
-                        <script type="text/javascript">
-                            function smc_start() {
-                                document.getElementById('smc_image').style.opacity = "1";
-                              }
-                    
-                              function smc_stop() {
-                                document.getElementById('smc_image').style.opacity = "0";
-                              }
-                            // smc_stop();
-                        </script>
-                    </td>
-                        
-                    <td style="padding:20px;width:75%;vertical-align:top">
-                        <span class="papertitle">The Perception Saga: Sim-2-Real Quadrotor Perception Stack</span>
-                        <br>
-                        <a href="https://github.com/miheer-diwan/Sim-2-Real-Mini-Drone-Racing.git">Project Page</a> 
-                        <p>Engineered a perception stack using synthetic data and YOLOv8 for detecting and segmenting windows. Deployed the model on a DJI TelloEDU drone to autonomously navigate a complex environment in real-time.</p>
-                    </td>
-                </tr>
-               
-
-<!-- Project 3: EKF -->
-                <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
-                    <td style="padding:20px;width:30%;vertical-align:top">
-                        <div class="one">
-                            <img src='images/ekf.png' width=100% height=100%>
-                        </div>
-                    </td>
-                    <td style="padding:20px;width:75%;vertical-align:top">
-                        <span class="papertitle">Vision-Based Localisation using Non-linear Kalman Filters</span>
-                        <br>
-                        <a href="https://github.com/miheer-diwan/EKF.git">Project Page</a>
-                        <p>Performed robust quadrotor pose estimation in 3D space by using Quadrotor Dynamics and Extended Kalman Filter</p>
-                        <p>Developed a vision-based observation model to get pose-estimates from AprilTags and improve prediction accuracy.
-                    </td>
-                </tr>
-
+ 
                 <!-- Project 3: Pb-Lite -->
                 <tr onmouseout="pb_stop()" onmouseover="pb_start()">
                     <td style="padding:20px;width:30%;vertical-align:top">
@@ -346,67 +300,9 @@
                     </td>
                 </tr>
 
-<!--                     Project: SMC  -->
-                    <tr>
-                    <td style="padding:20px;width:30%;vertical-align:top">
-                        <div class="one">
-                            <div class="two" id='smc_image'><video width=100% muted autoplay loop> 
-                            <source src="images/traj_ortho_view.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                            </video></div>
-<!--                               <img src='images/traj_ortho.png' width=200 height=200> -->
-<!--                         </div> -->
-                        <script type="text/javascript">
-                            function smc_start() {
-                                document.getElementById('smc_image').style.opacity = "1";
-                              }
-                    
-                              function smc_stop() {
-                                document.getElementById('smc_image').style.opacity = "0";
-                              }
-                            // smc_stop();
-                        </script>
-                    </td>
-                        
-                    <td style="padding:20px;width:75%;vertical-align:top">
-                        <span class="papertitle">Robust Quadrotor Trajectory Tracking Using Sliding Mode Control</span>
-                        <br>
-                        <a href="https://github.com/miheer-diwan/quadrotor_sliding_mode_control.git">Project Page</a>
-                        <p>Design of a sliding mode controller for altitude and attitude control of the Crazyflie 2.0 to enable the quadrotor to track desired trajectories and visit a set of desired waypoints.</p>
-                    </td>
-                </tr>
 
 
-             <!-- Project 2: SCARA Robot -->
-<!--                 <tr onmouseout="smc_stop()" onmouseover="smc_start()"> -->
-                    <tr>
-                    <td style="padding:20px;width:30%;vertical-align:top">
-                        <div class="one">
-                            <div class="two" id='smc_image'><video width=100% muted autoplay loop> 
-                            <source src="images/scara.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                            </video></div>
-<!--                               <img src='images/traj_ortho.png' width=200 height=200> -->
-                        </div>
-                        <script type="text/javascript">
-                            function smc_start() {
-                                document.getElementById('smc_image').style.opacity = "1";
-                              }
-                    
-                              function smc_stop() {
-                                document.getElementById('smc_image').style.opacity = "0";
-                              }
-                            // smc_stop();
-                        </script>
-                    </td>
-                    <td style="padding:20px;width:75%;vertical-align:top">
-                        <span class="papertitle">SCARA Robot Simulator</span>
-                        <br>
-                        <a href="https://github.com/miheer-diwan/SCARA-manipulator.git">Project Page</a>
-                        <p> Position and Velocity control of SCARA robot using a PID Controller in a simulated environment in ROS2 and Gazebo.</p>
-                        
-                    </td>
-                </tr>
+
                     
                 <!-- Project 3: Panorama Stitching -->
                 <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
@@ -435,7 +331,7 @@
                         <br>
                         <a href="https://github.com/miheer-diwan/Einstein-Vision.git">Project Page</a>
                         <p>This project leverages classical computer vision and Deep learning techniques to develop a perception stack for autonomous vehicles.</p>
-                        <p>Additionally, a Tesla-inspired visualization was also developed using Blender to autnomously recreate a 3D scene from monocular images.</p>
+                        <p>Additionally, a Tesla-inspired visualization was also developed using Blender to recreate a 3D scene from monocular images autnomously.</p>
                     </td>
                 </tr>                    
 
@@ -517,65 +413,7 @@
                 </tr>
                     
 
-                <!-- Project 3: Bayes Filter -->
-                <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
-                    <td style="padding:20px;width:30%;vertical-align:top">
-                        <div class="one">
-                            <div class="two" id='smc_image'><video width=100% muted autoplay loop> 
-                            <source src="images/bayes.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                            </video></div>
-<!--                               <img src='images/traj_ortho.png' width=200 height=200> -->
-<!--                         </div> -->
-                        <script type="text/javascript">
-                            function smc_start() {
-                                document.getElementById('smc_image').style.opacity = "1";
-                              }
-                    
-                              function smc_stop() {
-                                document.getElementById('smc_image').style.opacity = "0";
-                              }
-                            // smc_stop();
-                        </script>
-                    </td>
-                    
-                    <td style="padding:20px;width:75%;vertical-align:top">
-                        <span class="papertitle">Bayes Filter</span>
-                        <br>
-                        <a href="https://github.com/miheer-diwan/Bayes-Filter.git">Project Page</a>
-                        <p>Implemented a Bayes filter for state estimation of a robot in a 2D space.</p>
-                    </td>
-                </tr>
-
-                <!-- Project 3: Kalman Filter -->
-                <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
-                    <td style="padding:20px;width:30%;vertical-align:top">
-                        <div class="one">
-                            <img src='images/kalman.png' width=100% height=100%>
-                        </div>
-                    </td>
-                    <td style="padding:20px;width:75%;vertical-align:top">
-                        <span class="papertitle">Kalman Filter</span>
-                        <br>
-                        <a href="https://github.com/miheer-diwan/Kalman-Filter.git">Project Page</a>
-                        <p>Implemented a Kalman Filter in Python for quadrotor localization in 3D space.</p>
-                    </td>
-                </tr>
-
-                <!-- Project 3: Particle Filter -->
-                <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
-                    <td style="padding:20px;width:30%;vertical-align:top">
-                        <div class="one">
-                            <img src='images/pf.png' width=100% height=100%>
-                        </div>
-                    </td>
-                    <td style="padding:20px;width:75%;vertical-align:top">
-                        <span class="papertitle">Particle Filter</span>
-                        <br>
-                        <a href="https://github.com/miheer-diwan/Particle-Filter.git">Project Page</a>
-                        <p>Implemented a Particle Filter (EKF) in Python for quadrotor localization in 3D space.</p>
-                    </td>
-                </tr>                    
+               
 
 
                  <!-- Project 6: Visual Inertial Odometry (VIO) -->
@@ -592,8 +430,90 @@
                 </tr>
                 </tbody>
             </table>
+            
+<!-- AERIAL ROBOTICS PROJECTS SECTION -->
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                <tr>
+                    <td style="padding:20px;width:100%;vertical-align:middle">
+                        <h2>Aerial Robotics Projects</h2>
+<!--                         <heading><b>Computer Vision Projects</b></heading> -->
+                    </td>
+                </tr>
+                </tbody>
+            </table>
 
-            <!-- PROJECT SECTION -->
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody> 
+
+                       <!-- Project 1: Sim2Real Quadrotor Perception Stack -->                                
+                    <tr>
+                    <td style="padding:20px;width:30%;vertical-align:top">
+                        <div class="one">
+                            <div class="two" id='smc_image'><video height=100% muted autoplay loop> 
+                            <source src="images/perception.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video></div>
+<!--                               <img src='images/traj_ortho.png' width=200 height=200> -->
+<!--                         </div> -->
+                        <script type="text/javascript">
+                            function smc_start() {
+                                document.getElementById('smc_image').style.opacity = "1";
+                              }
+                    
+                              function smc_stop() {
+                                document.getElementById('smc_image').style.opacity = "0";
+                              }
+                            // smc_stop();
+                        </script>
+                    </td>
+                        
+                    <td style="padding:20px;width:75%;vertical-align:top">
+                        <span class="papertitle">The Perception Saga: Sim-2-Real Quadrotor Perception Stack</span>
+                        <br>
+                        <a href="https://github.com/miheer-diwan/Sim-2-Real-Mini-Drone-Racing.git">Project Page</a> 
+                        <p>Engineered a perception stack using synthetic data and YOLOv8 for detecting and segmenting windows. Deployed the model on a DJI TelloEDU drone to autonomously navigate a complex environment in real-time.</p>
+                    </td>
+                </tr>
+               
+  
+  
+
+<!--                     Project: SMC  -->
+                    <tr>
+                    <td style="padding:20px;width:30%;vertical-align:top">
+                        <div class="one">
+                            <div class="two" id='smc_image'><video width=100% muted autoplay loop> 
+                            <source src="images/traj_ortho_view.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video></div>
+<!--                               <img src='images/traj_ortho.png' width=200 height=200> -->
+<!--                         </div> -->
+                        <script type="text/javascript">
+                            function smc_start() {
+                                document.getElementById('smc_image').style.opacity = "1";
+                              }
+                    
+                              function smc_stop() {
+                                document.getElementById('smc_image').style.opacity = "0";
+                              }
+                            // smc_stop();
+                        </script>
+                    </td>
+                        
+                    <td style="padding:20px;width:75%;vertical-align:top">
+                        <span class="papertitle">Robust Quadrotor Trajectory Tracking Using Sliding Mode Control</span>
+                        <br>
+                        <a href="https://github.com/miheer-diwan/quadrotor_sliding_mode_control.git">Project Page</a>
+                        <p>Design of a sliding mode controller for altitude and attitude control of the Crazyflie 2.0 to enable the quadrotor to track desired trajectories and visit a set of desired waypoints.</p>
+                    </td>
+                </tr>
+            
+                </tbody>
+            </table>
+
+            
+<!-- LOCALIZATION PROJECT SECTION -->
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
                 <tr>
@@ -689,18 +609,7 @@
                         
                     </td>
                 </tr>
-                    
-
-                    
-
-
-
-
-
-                    
-
-                    
-
+            
                 <!-- Project 3: Bayes Filter -->
                 <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
                     <td style="padding:20px;width:30%;vertical-align:top">
@@ -759,10 +668,90 @@
                         <a href="https://github.com/miheer-diwan/Particle-Filter.git">Project Page</a>
                         <p>Implemented a Particle Filter (EKF) in Python for quadrotor localization in 3D space.</p>
                     </td>
-                </tr>                    
+                </tr>    
+
+                </tbody>
+            </table>
+
+<!-- ROBOTICS PROJECTS SECTION -->
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                <tr>
+                    <td style="padding:20px;width:100%;vertical-align:middle">
+                        <h2>Robotics Projects</h2>
+<!--                         <heading><b>Computer Vision Projects</b></heading> -->
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody> 
+  
+  
+
+<!--                     Project: SMC  -->
+                    <tr>
+                    <td style="padding:20px;width:30%;vertical-align:top">
+                        <div class="one">
+                            <div class="two" id='smc_image'><video width=100% muted autoplay loop> 
+                            <source src="images/traj_ortho_view.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video></div>
+<!--                               <img src='images/traj_ortho.png' width=200 height=200> -->
+<!--                         </div> -->
+                        <script type="text/javascript">
+                            function smc_start() {
+                                document.getElementById('smc_image').style.opacity = "1";
+                              }
+                    
+                              function smc_stop() {
+                                document.getElementById('smc_image').style.opacity = "0";
+                              }
+                            // smc_stop();
+                        </script>
+                    </td>
+                        
+                    <td style="padding:20px;width:75%;vertical-align:top">
+                        <span class="papertitle">Robust Quadrotor Trajectory Tracking Using Sliding Mode Control</span>
+                        <br>
+                        <a href="https://github.com/miheer-diwan/quadrotor_sliding_mode_control.git">Project Page</a>
+                        <p>Design of a sliding mode controller for altitude and attitude control of the Crazyflie 2.0 to enable the quadrotor to track desired trajectories and visit a set of desired waypoints.</p>
+                    </td>
+                </tr>
 
 
-
+             <!-- Project 2: SCARA Robot -->
+<!--                 <tr onmouseout="smc_stop()" onmouseover="smc_start()"> -->
+                    <tr>
+                    <td style="padding:20px;width:30%;vertical-align:top">
+                        <div class="one">
+                            <div class="two" id='smc_image'><video width=100% muted autoplay loop> 
+                            <source src="images/scara.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video></div>
+<!--                               <img src='images/traj_ortho.png' width=200 height=200> -->
+                        </div>
+                        <script type="text/javascript">
+                            function smc_start() {
+                                document.getElementById('smc_image').style.opacity = "1";
+                              }
+                    
+                              function smc_stop() {
+                                document.getElementById('smc_image').style.opacity = "0";
+                              }
+                            // smc_stop();
+                        </script>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:top">
+                        <span class="papertitle">SCARA Robot Simulator</span>
+                        <br>
+                        <a href="https://github.com/miheer-diwan/SCARA-manipulator.git">Project Page</a>
+                        <p> Position and Velocity control of SCARA robot using a PID Controller in a simulated environment in ROS2 and Gazebo.</p>
+                        
+                    </td>
+                </tr>
+            
                 </tbody>
             </table>
             
