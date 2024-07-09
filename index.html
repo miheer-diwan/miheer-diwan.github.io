@@ -302,8 +302,7 @@ scikit-learn, Matplotlib, MATLAB/ Simulink, Docker, Linux, Git, LaTeX, SolidWork
                     <td style="padding:20px;width:30%;vertical-align:top">
                         <div class="one">
                       <div class="two" id='pb_image'><video  width=100% muted autoplay loop>
-                      <source src="images/10.jpg"> 
-<!--                           type="video/mp4"> -->
+                      <source src="images/10.jpg" type="video/mp4">
                       Your browser does not support the video tag.
                       </video></div>
                             <img src='images/PBLite_10.png' width=100% height=100%>
@@ -316,8 +315,7 @@ scikit-learn, Matplotlib, MATLAB/ Simulink, Docker, Linux, Git, LaTeX, SolidWork
                               function pb_stop() {
                                 document.getElementById('pb_image').style.opacity = "0";
                               }
-                        pb_stop();
-                            
+                        pb_stop()
                         </script>                        
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:top">
@@ -555,11 +553,41 @@ scikit-learn, Matplotlib, MATLAB/ Simulink, Docker, Linux, Git, LaTeX, SolidWork
                         <br>
                         <a href="https://github.com/miheer-diwan/Waypoint-Navigation-and-AprilTag-Landing.git">Project Page</a>
 
-                        <p>Developed a dynamic 3D waypoint navigation algorithm and integrated\textbf{ AprilTag} scanning for landing maneuvers.</p>
+                        <p>Developed a dynamic 3D waypoint navigation algorithm and integrated AprilTag scanning for landing maneuvers.</p>
                         <p>Engineered a Cascaded PID controller based on the PX4 stack to ensure precise trajectory tracking.
                     </td>
                 </tr>
             
+<!-- Project : Waypoint Nav -->
+                <tr onmouseout="nav_stop()" onmouseover="nav_start()">
+                    <td style="padding:20px;width:30%;vertical-align:top">
+                        <div class="one">
+                      <div class="two" id='nav_image'><video  width=100% muted autoplay loop>
+                      <source src="images/drone_nav.png" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video></div>
+                            <img src='images/drone_nav_vid.mp4' width=100% height=100%>
+                        </div>
+                        <script type="text/javascript">
+                            function nav_start() {
+                                document.getElementById('pb_image').style.opacity = "1";
+                              }
+                    
+                              function nav_stop() {
+                                document.getElementById('pb_image').style.opacity = "0";
+                              }
+                        nav_stop()
+                        </script>                        
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:top">
+                        <span class="papertitle">Waypoint Navigation and AprilTag Landing</span>
+<!--                         <br> Python | OpenCV  -->
+                        <br>
+                        <a href="https://github.com/miheer-diwan/Waypoint-Navigation-and-AprilTag-Landing.git">Project Page</a>
+                        <p>Developed a dynamic 3D waypoint navigation algorithm and integrated AprilTag scanning for landing maneuvers.</p>
+                        <p>Engineered a Cascaded PID controller based on the PX4 stack to ensure precise trajectory tracking.
+                    </td>
+                </tr>            
             
                 </tbody>
             </table>
